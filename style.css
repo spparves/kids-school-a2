@@ -1,0 +1,106 @@
+.open-sans{
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+body{
+    padding: 0px 20px;
+    width: 100%;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+
+/* navbar code start*/
+
+.nav-bar{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    padding: 20px 20px;
+    text-align: center;
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+p{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.nav-home{
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-home > a{
+    text-decoration: none;
+}
+
+.con{
+    display: flex;
+    justify-content: center;
+    width: 180px;
+    height: 40px;
+    border: 3px solid orange;
+    border-radius: 5px;
+    background-color: orange;
+    align-items: center;
+    color: white;
+}
+
+/* banner code start */
+.banner{
+    max-width: 100%;
+    max-height: auto;
+    padding: 20px 20px;
+    display: grid;
+    grid-template-columns: 65% 30%;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.bnner-img{
+    width: 200px;
+    height: auto;
+}
+
+
+.dis{
+    font-size: 56px;
+    font-style: bold;
+    line-height: auto;
+    margin-bottom: 10px;
+}
+
+.btn{
+    font-size: 20px;
+    width: 130px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.Empowering{
+    color: orange;
+}
+
+.towards-vision{
+    color: rgb(30, 180, 240);
+}
+
