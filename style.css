@@ -155,21 +155,84 @@ h4{
     justify-content: center;
     text-align: center;
 }
-
+.img-card > .im1{
+    display: block; display: flex; justify-content: center; text-align: center;" 
+}
 .card-a{
     justify-content: center;
 }
 
-.expand{
-    display: contents;
-    justify-content: space-between;
+.logo-p{
+    width: 100%;
+    height: 80px;
+}
+
+.logo-areo, .aa, .bb{
+    width: 60px;
+    height: 60px;
+    gap: 5px;
+}
+.logo-areo, .logo-p{
+    display: flex;
+    justify-content: center;
     text-align: center;
     align-items: center;
 }
+.aa, .bb{
+    border-radius: 60px;
+    background-color: orange;
+    color: white;
+}
 
 
+.story-p{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: url(./bg.png);
+    background: linear-gradient(rgba(226, 218, 218, 0.336),rgba(255, 166, 0, 0.274));
+}
 
+.cards-1{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+}
+.s-titel{
+    font-size: 20px;
+}
 
+/* .fore-img, .a1a .a4-4{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background-color: white;
+    border: 5px solid red;
+} */
+.a1a{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+
+.fore-img{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+}
+
+.hedding-4{
+    font-size: 15px;
+    color: black;
+}
+
+.grid-t{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
@@ -204,21 +267,32 @@ h4{
         box-shadow: 0 1px 4px black , 0 0 40px rgb(32, 32, 32);
     }
 
-    .nav-home , .con, .hidde{
+    .nav-home , .con, .hidde, .logo-p, .cards-1{
         display: none;
     }
     /* Standard Curriculum res code start */
-    .card-parent{
+    .card-parent, .h33, .card-1 a1{
         grid-template-columns: 1fr 1fr;
+        width: auto;
+        height: auto;
         
         flex-direction: column;
-        margin: 0 auto;
-        padding:  0 0px;
+        margin: 0px;
+        padding:  0px;
         align-items: center;
-        gap: 30px;
+        gap: 20px;
     }
-
-
+    .a1a, .grid-t{
+        display: grid;
+        grid-template-columns: repeat(1fr 1fr);
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    .img-card > .im1{
+        flex-direction: column;
+    }
 
 
 }
