@@ -15,8 +15,8 @@ body{
 
 }
 
-
-/* navbar code start*/
+/* 
+   navbar code start */
 
 .nav-bar{
     display: flex;
@@ -34,12 +34,12 @@ body{
     justify-content: space-between;
     align-items: center
 }
-p{
+p {
     font-size: 2rem;
     text-align: center;
 }
 
-.nav-home{
+.nav-home {
     gap: 20px;
     display: flex;
     justify-content: space-between;
@@ -103,4 +103,24 @@ p{
 .towards-vision{
     color: rgb(30, 180, 240);
 }
+
+/*     @medi quary codestart */
+
+@media screen and (max-width: 576px) {
+    .banner{
+        grid-template-columns: 1fr;
+        
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    .bnner-img{
+        order: -1;
+        margin: 0px;
+        padding: 0px;
+    }
+
+}
+
 
