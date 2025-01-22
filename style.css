@@ -10,6 +10,7 @@
 body{
     padding: 0px 20px;
     width: 100%;
+    height: 2000px;
     margin: 0px;
     box-sizing: border-box;
 
@@ -230,10 +231,10 @@ h4{
 }
 
 .grid-t{
-    text-align: center;
+    display: flex;
     justify-content: space-between;
 }
-.btn-view{ 
+.btn-view{
     display: flex;
     justify-content: center;
     width: 100%;
@@ -248,9 +249,18 @@ h4{
     border-radius: 10px;
     border: none;
     font-size: 20px;
-    cursor: pointer;
-} 
+}
 
+.foter{
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+}
+
+.log{
+    display: flex;
+    justify-content: ;
+}
 
 
 
@@ -260,18 +270,6 @@ h4{
 
 @media screen and (max-width: 576px) {
     /* banner res code start */
-    *{
-        margin: 0px;
-        padding: 0px;
-    }
-    
-
-    .btn-view{
-        flex-direction: column;
-        margin: 0px;
-        padding: 0px;
-
-    }
     .banner{
         grid-template-columns: 1fr;
         
@@ -289,7 +287,6 @@ h4{
     .menu, .material-symbols-outlined{
         font-size: bold;
         display: block;
-        
     }
 
     .nav-bar{
@@ -322,9 +319,6 @@ h4{
     .img-card > .im1{
         flex-direction: column;
     }
-    
-
-
 
 
 }
